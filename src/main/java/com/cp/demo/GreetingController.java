@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/demo")
-@CrossOrigin(origins =  "http://localhost:5173")
+@CrossOrigin(origins =  "https://practice-deployment-frontend.vercel.app/")
 public class GreetingController {
 
     @GetMapping("/hello")
